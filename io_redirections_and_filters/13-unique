@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(tr ' ' '\n'<<< "$input_words" | sort -u)"
+cat list_1 | sort --ignore-case | uniq -u
