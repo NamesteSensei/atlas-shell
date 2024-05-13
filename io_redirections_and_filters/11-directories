@@ -1,0 +1,2 @@
+#!/bin/bash
+dir_count=$(find. -mindepth 1 -type d | wc -l); echo "Number of directories and sub-directories (excluding the current directory): $dir_count"
