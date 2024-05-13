@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Reversed string: $reversed_string"
+echo "string" | rev
