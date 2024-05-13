@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltr "$directory" | tail -n 10
+ls -ltr "io_redirections_and_filters" | tail -n 10
