@@ -1,2 +1,2 @@
 #!/bin/bash
-if [[ -n "$POWER" && -n "$DIVIDE" ]]; then echo "$(echo "$POWER / $DIVIDE" | bc)" ; else echo "Both POWER and DIVIDE must be set." ; fi
+echo "$(echo "$POWER / $DIVIDE" | bc)"
