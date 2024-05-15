@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Total directories in PATH: $count"
+echo $PATH | tr : $'''''' | grep / | wc -l
